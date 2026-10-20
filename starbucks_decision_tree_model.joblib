@@ -1,9 +1,5 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
 import joblib
-
-# Save the trained Decision Tree model
-joblib.dump(
-    dt_model,
-    "starbucks_decision_tree_model.joblib"
-)
-
-print("Model saved successfully!")
+import os
