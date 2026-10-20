@@ -1,1 +1,9 @@
+import joblib
 
+# Save the trained Decision Tree model
+joblib.dump(
+    dt_model,
+    "starbucks_decision_tree_model.joblib"
+)
+
+print("Model saved successfully!")
