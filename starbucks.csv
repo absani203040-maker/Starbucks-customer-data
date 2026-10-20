@@ -1,1 +1,7 @@
+import os
+import glob
 
+print("Current folder:", os.getcwd())
+
+for file in glob.glob("**/*.csv", recursive=True):
+    print(file)
